@@ -14,14 +14,9 @@ int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 
 if (a > max) max = a;
-{
-    Console.WriteLine($"первое число {a} = max");
-}
+
 if(b > max) max = b;
-{
-    Console.WriteLine($"второе число {b} = max");
-}
+
 if (c > max) max =c;
-{
-    Console.WriteLine($"третье число {c} = max");
-}
+
+Console.WriteLine(max);
