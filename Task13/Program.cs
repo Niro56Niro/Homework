@@ -7,15 +7,15 @@
 Console.WriteLine("Введите любое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if(a<99)
+if(a < 99)
 {
-Console.WriteLine("третьей цифры нет");
+    Console.WriteLine("третьей цифры нет");
 }
 else
 {
-while(a > 1000)
+    while(a > 1000)
     {
         a /= 10;
     }
-Console.WriteLine($"третья цифра заданного числа {a%10}");
+    Console.WriteLine($"третья цифра заданного числа {a%10}");
 }
