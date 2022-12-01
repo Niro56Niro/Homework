@@ -4,13 +4,13 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите трехзначное число: ");
+Console.WriteLine("Введите трёхзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 if(a>99 && a<1000)
 {
 int a2 = a % 100 / 10;
-Console.WriteLine(a2);
+Console.WriteLine($"вторая цифра трёхзначного числа {a2}");
 }
 else 
 {
